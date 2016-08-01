@@ -1,0 +1,304 @@
+
+/*<body.principal{
+    background-image: url(../imgs/img_albertao_fundo_body.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    display: block;
+    background-attachment: fixed;
+}*/
+.class-modal01{
+    background-color: black;
+}
+
+.navbar-site-river{
+    margin-top: -1px;
+    margin-left: -2px;
+    background-image: url(../imgs/backgroud/back_topo.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    display: block;
+    background-color: transparent;
+}
+.menu-navegacao{
+    background-image: url(../imgs/backgroud/back_topo.png);
+}
+.navbar-fixed-bottom{
+    color: white;
+}
+.btn_icons{
+    width: 60px;
+}
+.img_topo_logo img{
+    height:70px; 
+    margin:5px 0 0 300px;
+    float: left;
+}
+
+.img_topo_redes{
+    float: right;
+}
+
+/*.fundo_menu{
+    background-image: url(../imgs/img_fundo_topo.png);
+    background-repeat: no-repeat;
+    min-height: 10px;
+    width: 100%;
+    background-size:cover;
+    display: block;
+    padding-top: 50px;
+}*/
+
+.nav_topo_menu{
+    margin-top: 81px;
+    box-shadow: 5px 2px 5px 1px grey;
+    border-radius: 10px;
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#fff 20%, #ccc); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#fff 20%, #ccc); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#fff 20%, #ccc); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#fff 20%, #ccc); /* Standard syntax */
+}
+.nav_topo_menu ul li a{
+    color: #696969;
+    font-size: 14px;
+}
+.nav_topo_menu ul li{
+    border-left: 1px;
+    border-left-style: solid;
+    border-left-color: darkgrey;
+    border-right: 1px;
+    border-right-style: solid;
+    border-right-color: white;
+}
+section{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    height: 100vh;
+}
+
+#divslider{
+    padding-top: 130px;
+    padding-bottom: 40px;
+    background-image: url(../imgs/backgroud/back1.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    display: block;
+    background-attachment: fixed;
+    
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ccc 10%,#f4f2f2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ccc 10%,#f4f2f2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ccc 10%,#f4f2f2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ccc 10%,#f4f2f2); /* Standard syntax */
+}
+.slide_principal_item{
+    background-color: transparent;
+}
+.slide_principal_item img{
+    float: right;
+    width: 800px;
+    height: 500px;
+}
+
+.edit_title_absolute{
+    position: absolute;
+    top: 40px;
+    color: #fff;
+    font-size: 60px;
+	text-shadow: #000 2px 3px 2px;
+    font-family: fantasy;
+}
+.edit_title_absolute2{
+    position: absolute;
+    bottom: 60px;
+    height: 60px;
+    color: #fff;
+    font-size: 40px;
+	text-shadow: #000 2px 3px 2px;
+    border-left: 8px;
+    border-left-color: red;
+    border-left-style: solid;
+    padding: 10px 0 0 20px;
+    margin: 0 0 0 20px;
+    font-family: fantasy;
+}
+
+.edit_title_no_absolute{
+    color: #fff;
+	text-shadow: #000 2px 3px 2px;
+}
+
+.div_prox_jogo{
+    background-image: url(../imgs/backgroud/back2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    background-attachment: fixed;
+    height: 100%;
+}
+.div_prox_jogo .page-header h1{
+    font-size: 70px;
+    color: #fff;
+	text-shadow: #000 1px 1px 7px;
+}
+.prox_jogo_nome_campeonato{
+    margin-top: 30px;
+}
+.prox_jogo_tempo{
+    margin-top:80px;
+}
+
+.div_noticias{
+    background-image: url(../imgs/backgroud/back_noticias.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    background-attachment: fixed;
+    height: 100%;
+}
+.div_noticias .page-header h1{
+    font-size: 50px;
+    color: #fff;
+	text-shadow: #000 2px 2px 2px;
+}
+.noticias_item h3{
+    position: absolute;
+    bottom: 10px;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    color: #fff;
+	text-shadow: #000 2px 3px 2px; 
+}
+.noticias_row{
+    margin-bottom: 30px;
+}
+
+img.grayscale {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter ….3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    filter: gray;
+    -webkit-filter: brightness(10) grayscale(100%);
+    -moz-filter: brightness(10);
+    -ms-filter: brightness(10);
+    -o-filter: brightness(10);
+    filter: brightness(10);
+}
+img.grayscale:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
+
+img.grayscale2 {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+}
+
+img.grayscale2:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
+
+.div_canal_galo{
+    background-image: url(../imgs/backgroud/back_canal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    background-attachment: fixed;
+    height: 100%;
+}
+.div_canal_galo .page-header h1{
+    font-size: 70px;
+    color: #fff;
+	text-shadow: #000 1px 1px 7px;
+}
+.slide_video{
+    padding: 20px;
+}
+
+.videos_item{
+    background-color: white;
+    pointer-events: painted;
+}
+.videos_item h4{
+    margin-top: -30px;
+    text-align: center;
+    color: #fff;
+	text-shadow: #000 2px 3px 2px; 
+}
+
+.div_elenco{
+    background-image: url(../imgs/backgroud/back_elenco.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    background-attachment: fixed;
+    height: 100%;
+}
+.div_elenco .page-header h1{
+    font-size: 60px;
+    color: #fff;
+	text-shadow: #000 2px 2px 8px;
+}
+.div_patrocinadores{
+    height: 100%;
+}
+.div_patrocinadores .page-header h1{
+    color: #fff;
+	text-shadow: #000 2px 2px 2px;
+}
+
+.slide-elenco{
+    margin-top: 100px;
+}
+
+.form-login{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background: #eee;
+    border-radius: 10px;
+}
+.form-login input{
+    margin-top: 10px;
+}
+
+.row_copyrite{
+    margin-top: 60px;
+    color: white;
+}
+.row_copyrite strong{
+    margin-left: 5px;
+}
+
+.footer_site{
+    height: 100%;
+    margin: 50px 0 0 0;
+    padding: 20px;
+    background-image: url(../imgs/backgroud/back_topo.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    display: block;
+    background-color: transparent;
+}
+.footer_site h3{
+    text-shadow: #000 1px 2px 1px;
+    color: white;
+}
+.footer_site h3:hover{
+    color:grey;
+}
+
+.footer_site h4 {
+    color:#ccc;
+}
+.footer_site h4:hover {
+    color:black;
+}
