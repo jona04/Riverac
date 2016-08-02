@@ -1,0 +1,54 @@
+body.painel{
+    background-image: url("../imgs/ignasi_pattern_s.4b9d6e0aeaf9.png");
+}
+
+.conteudo_painel{
+    background-color: white;
+    border-radius: 8px;
+    border:1px solid #eee;
+    box-shadow: 3px 3px 3px #888;
+}
+.conteudo_painel_int{
+    padding: 15px;
+}
+
+.padding_painel{
+    padding: 15px;
+}
+
+.form-login{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background: #eee;
+    border-radius: 10px;
+}
+.form-login input{
+    margin-top: 10px;
+}
+
+
+.progress 
+{
+  display:none; 
+  position:relative; 
+  width:400px; 
+  border: 1px solid #ddd; 
+  padding: 1px; 
+  border-radius: 3px; 
+}
+.bar 
+{ 
+  background-color: #B4F5B4; 
+  width:0%; 
+  height:20px; 
+  border-radius: 3px; 
+}
+.percent 
+{ 
+  position:absolute; 
+  display:inline-block; 
+  top:3px; 
+  left:48%; 
+}
