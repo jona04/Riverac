@@ -141,6 +141,10 @@ h4{
 }
 .noticias_item{
     margin: 0 -15px 0 -15px;
+<<<<<<< HEAD
+    max-height: 250px;
+=======
+>>>>>>> 983e8208d1c5db2602693be5066beb5e7eb725ac
     
 }
 .noticias_row{
@@ -177,6 +181,19 @@ img.grayscale2:hover {
   -webkit-filter: grayscale(0%);
 }
 
+<<<<<<< HEAD
+.div_noticia_page{
+    margin:100px 0 0 0;
+}
+.div_noticia_page .content{
+    margin:50px 0 0 0;
+}
+.div_noticia_page .img{
+    margin:50px 0 0 0;
+}
+
+=======
+>>>>>>> 983e8208d1c5db2602693be5066beb5e7eb725ac
 .div_canal_galo{
    /* background-image: url(../imgs/backgroud/back_canal.png);
     background-repeat: no-repeat;

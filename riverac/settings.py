@@ -42,6 +42,8 @@ INSTALLED_APPS = [
    
     'riverac.partidas',
     'riverac.river',
+
+    's3direct',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -94,6 +96,32 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+# AWS keys
+AWS_SECRET_ACCESS_KEY = 'YNfO53Vard3Xx5+Y/9bEcQOsbt5Y1YcKGq2mzuv8'
+AWS_ACCESS_KEY_ID = 'AKIAILO7YDUU7ZAVC2VA'
+AWS_STORAGE_BUCKET_NAME = 'riverac'
+
+# The region of your bucket, more info:
+# http://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region
+S3DIRECT_REGION = 'sa-east-1'
+
+# Destinations, with the following keys:
+#
+# key [required] Where to upload the file to
+# auth [optional] An ACL function to whether the current user can perform this action
+# allowed [optional] List of allowed MIME types
+# acl [optional] Give the object another ACL rather than 'public-read'
+# cache_control [optional] Cache control headers, eg 'max-age=2592000'
+# content_disposition [optional] Useful for sending files as attachements
+# bucket [optional] Specify a different bucket for this particular object
+# server_side_encryption [optional] Encryption headers for buckets that require it
+#
+S3DIRECT_DESTINATIONS = {
+    # Allow anybody to upload any MIME type
+    'riverac': {
+        'key': '/',
+    },
+}
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.9/topics/i18n/
@@ -140,6 +168,6 @@ STATICFILES_DIRS = (
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 try:
-    from thebrindes.local_settings import *
+    from riverac.local_settings import *
 except ImportError:
     pass

@@ -443,6 +443,43 @@
                         <div class="page-header text-center"><h1>Ultimas Noticias</h1></div>
                     </div>
                 </div>
+<<<<<<< HEAD
+                
+
+                {% for noticia in noticias %}
+                    {% if forloop.counter < 9 %}
+                        {% if forloop.counter == 1 %}
+                        <div class="row noticias_row">
+                        {% endif %}
+                        {% if forloop.counter == 5 %}
+                        <div class="row noticias_row">
+                        {% endif %}
+                        <div class="col-sm-3">
+                           
+                                <div class="noticias_item">
+                                <a href="{{ noticia.get_absolute_url }}">
+
+                                        <img class="img-responsive grayscale_noticias center-block" src="{{ noticia.image }}" alt="{{ noticia.title }}" />
+
+                                
+                                <h3>{{ noticia.title }}</h3>
+                                </a>
+                            </div>
+                        </div>
+                        {% if forloop.counter == 4 %}
+                        </div>
+                        {% endif %}
+                        {% if forloop.counter == 8 %}
+                        </div>
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+
+
+                <!-- <div class="row noticias_row">        
+                    
+                    
+=======
                 <div class="row noticias_row">        
                     
                     <div class="col-sm-3">
@@ -490,6 +527,7 @@
                         </div>
                     </div> 
                                             
+>>>>>>> 983e8208d1c5db2602693be5066beb5e7eb725ac
 
                     <div class="col-sm-3">
                         <div class="noticias_item">
@@ -499,6 +537,11 @@
                             </a>
                         </div>
                     </div> 
+<<<<<<< HEAD
+                </div> -->
+                
+                <br />
+=======
                     <div class="col-sm-3">
                         <div class="noticias_item">
                             <a href="#">
@@ -518,6 +561,7 @@
                     </div> 
                 </div>
                 <br>
+>>>>>>> 983e8208d1c5db2602693be5066beb5e7eb725ac
                 <div class="row row_mais_noticias">
                     <div class="col-xs-12 text-center">
                         <a href="#" class=""><h4><strong>Ver todas as noticias</strong></h4></a>
